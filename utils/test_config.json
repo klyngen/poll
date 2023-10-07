@@ -1,0 +1,30 @@
+{
+    "questions": [
+        {
+            "description": "Kontor eller hjemmekontor",
+            "alternatives": [
+                {
+                    "name": "Kontor",
+                    "emoji": "🏢"}
+                ,
+                {
+                    "name": "Hjemmekontor",
+                    "emoji": "🏠"}
+
+            ]
+        },
+        {
+            "description": "Katt eller Hund",
+            "alternatives": [
+                {
+                    "name": "Katt",
+                    "emoji": "🐈"}
+                ,
+                {
+                    "name": "Hund",
+                    "emoji": "🐕"}
+
+            ]
+        }
+    ]
+}

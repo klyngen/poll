@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+      "description": "Katt eller hund",
+      "alternatives": [
+        {
+          "name": "Katt",
+          "emoji": "😺"
+        },
+        {
+          "name": "Hund",
+          "emoji": "🐕"
+        }
+      ]
+    },
+    {
+      "description": "Kontor eller hjemmekontor",
+      "alternatives": [
+        {
+          "name": "Kontor",
+          "emoji": "🏢"
+        },
+        {
+          "name": "Hjemmekontor",
+          "emoji": "🏠"
+        }
+      ]
+    },
+    {
+      "description": "Emacs eller vi/vim/neovim",
+      "alternatives": [
+        {
+          "name": "Emacs",
+          "emoji": "🔥"
+        },
+        {
+          "name": "vi/vim/neovim",
+          "emoji": "💻"
+        }
+      ]
+    },
+    {
+      "description": "Utvikler eller 'ekte utvikler'",
+      "alternatives": [
+        {
+          "name": "Utvikler",
+          "emoji": "😁"
+        },
+        {
+          "name": "Ekte utvikler",
+          "emoji": "🔥"
+        }
+      ]
+    }
+  ]
+}
