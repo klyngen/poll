@@ -74,7 +74,7 @@ func (p *presentationAPI) handleSocketConnection(connection *websocket.Conn) {
 	}
 }
 
-func (p *presentationAPI) ListenAndServe(restPort int) error {
+func (p *presentationAPI) ListenAndServe(restPort string) error {
 	log.Printf("Starting rest on port: %v\n", restPort)
 	router := chi.NewMux()
 
@@ -136,8 +136,7 @@ func (p *presentationAPI) ListenAndServe(restPort int) error {
 
 	printRoutes(router)
 
-	http.ListenAndServe(fmt.Sprintf(":%v", restPort), router)
-	return nil
+	return http.ListenAndServe(fmt.Sprintf(":%v", restPort), router)
 }
 
 // FileServer para SPA

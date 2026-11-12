@@ -1,15 +1,15 @@
 {
   "questions": [
     {
-      "description": "Katt eller hund",
+      "description": "Mac eller PC",
       "alternatives": [
         {
-          "name": "Katt",
-          "emoji": "😺"
+          "name": "Mac",
+          "emoji": "🍎"
         },
         {
-          "name": "Hund",
-          "emoji": "🐕"
+          "name": "PC",
+          "emoji": "🪟"
         }
       ]
     },
@@ -27,28 +27,28 @@
       ]
     },
     {
-      "description": "Emacs eller vi/vim/neovim",
+      "description": "Utvikler eller viber",
       "alternatives": [
         {
-          "name": "Emacs",
-          "emoji": "🔥"
+          "name": "Utvikler",
+          "emoji": "🤓"
         },
         {
-          "name": "vi/vim/neovim",
-          "emoji": "💻"
+          "name": "Viber",
+          "emoji": "😎"
         }
       ]
     },
     {
-      "description": "Utvikler eller 'ekte utvikler'",
+      "description": "Har du hørt om Endre?",
       "alternatives": [
         {
-          "name": "Utvikler",
-          "emoji": "😁"
+          "name": "Absolutt!",
+          "emoji": "✅"
         },
         {
-          "name": "Ekte utvikler",
-          "emoji": "🔥"
+          "name": "Nope",
+          "emoji": "❌"
         }
       ]
     }
